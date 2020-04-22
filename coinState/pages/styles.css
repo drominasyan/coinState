@@ -1,0 +1,66 @@
+body {
+    background: rgba(36,35,35,1);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.table {
+    display: flex;
+    position: relative;
+    margin: 15px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.colTitle {
+    font-weight: 600;
+    color: white;
+}
+
+.colTitle, .rowItem {
+    padding: 12px;
+}
+
+.table .rowItem {
+    color: #bfb9b9;
+    font-size: 14px;
+    width: max-content;
+    height: 50px;
+}
+
+.spinner {
+    position: absolute;
+    left: 0;
+    display: flex;
+    bottom: -20px;
+    align-self: center;
+    justify-self: center;
+    justify-self: center;
+    margin: 0 auto;
+    left: 50%;
+    right: 50%;
+}
+
+.coinIcon {
+    width: 20px;
+    margin-right: 7px;
+}
+
+.showMore {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border: none;
+    background: #d39e00;
+    color: #212529;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.nav-item {
+    color :white
+}
