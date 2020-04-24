@@ -12,3 +12,7 @@ Coins table columns
 ### If you need to add/remove new column in Table
   - add/remove column
   - add/remove it from list columns from `container/Coins/utils.js`
+  
+### Run project
+  - npm i
+  - npm run dev
