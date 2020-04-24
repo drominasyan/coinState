@@ -1,0 +1,104 @@
+body {
+    background: rgba(36,35,35,1);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.table {
+    display: flex;
+    position: relative;
+    margin: 15px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    overflow: hidden ;
+    flex-wrap: nowrap;
+    min-height: 200px;
+}
+
+.colTitle {
+    font-weight: 600;
+    color: white;
+}
+
+.colTitle, .rowItem {
+    padding: 12px;
+}
+
+.table .rowItem {
+    color: #bfb9b9;
+    font-size: 14px;
+    width: max-content;
+    height: 50px;
+    display:flex;
+}
+
+.coinIcon {
+    width: 20px;
+    margin-right: 7px;
+}
+
+.nav-item, .title {
+    color :white
+}
+
+
+.title {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.details {
+    display: flex;
+    color: white;
+    font-size: 13px;
+    justify-content: space-around;
+}
+
+.details >  div {
+    display: flex;
+    flex-direction: column;
+}
+
+.details > div > div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.loadingDetailsPage {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+.loadingDetailsPage .spinner-border {
+    height: 50px;
+    width: 50px;
+}
+
+.details .heading {
+    color: gray;
+}
+
+.star {
+    cursor: pointer;
+}
+.active {
+    color : yellow;
+}
+.inactive {
+    color : gray
+}
+.starList {
+    margin-right: 15px;
+    cursor: pointer;
+}
